@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "bebas neue", sans-serif;
+}
+.main{
+    height: 120vh;
+    width: 100%;
+    background-image: url(Greyflag.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+nav ul{
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    width: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    color:black;
+}
+nav a:hover{
+    background-color: #cf9834;
+    width:fit-content;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index:999;
+    background-color:rgba(255, 255, 255, 0.296);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display:none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.titlec6{
+    color:aliceblue;
+    text-align:center;
+    font-size: 37px;
+    margin-top: 10px;
+}
+.titlec7{
+    color:aliceblue;
+    text-align:center;
+    font-size: 37px;
+    letter-spacing: 10px;
+    
+}
+.topbar{
+    height: 75px;
+    background-color: white;
+
+}
+.toplogo{
+    width: 120px;
+    height: 35px;
+    padding: 0 665px;
+    margin-top: 20px;
+}
+.btn{
+    width: 240px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.657);
+    border:none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 605px;
+    margin-top: 500px;
+}
+.btn-outline-info{
+    color:blue;
+    border-color: red;
+}
+.btn-outline-info:hover{
+    color:aqua;
+    border-color:blueviolet;
+}
+.btn a{
+    text-decoration: none;
+    color:black;
+    transition: .3s ease;
+}
+.btn:hover{
+    background-color: white;
+}
+
+.pricec7{
+    color:white;
+    text-align:center;
+    margin-top:-15px;
+}

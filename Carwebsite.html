@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 2017 Chevrolet Corvette Grand Sport</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="topbar">
+            <div>
+                <img src="logo32.png" class="toplogo">
+            </div>
+        </nav>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="#">Owner Reasources</a></li>
+                <li><a href="#">Specs</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Inventory</a></li>
+                <li><a href="#">Build & Buy </a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Corvette</a></li>
+                <li><a href="#">Owner Reasources</a></li>
+                <li><a href="#">Specs</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Inventory</a></li>
+                <li><a href="#">Build & Buy </a></li>
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg> </a></li>
+            </ul>
+        </nav>
+        <div class="titlec6">
+            <h2>2019</h2>
+        </div>
+        <div class="titlec7">
+            <h1>CORVETTE GRANDSPORT</h1>
+        </div>
+
+        <div>><p class="pricec7">71,240 as shown</p>
+
+        <button class="btn"> <a href="#">Build & buy</a>
+    </div><button></div>
+        </div>
+
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+</body>
+
+</html>
